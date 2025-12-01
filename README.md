@@ -2,7 +2,7 @@
 
 # ✨ NixOS Dotfiles ✨
 
-![Main Screenshot](screenshot/5.png)
+![Main Screenshot](screenshot/logo.png)
 
 > _A beautiful NixOS configuration with Hyprland_
 
@@ -170,6 +170,7 @@ monitor = DP-1, 1920x1080@165, 0x0, 1
 
 ### ⚠️ Important Notes
 
+- **Use user name** nixos
 - **Do not change** the layout switch from `ALT + SHIFT` as it may break
   bindings
 - Adjust monitor settings according to your hardware
@@ -187,17 +188,10 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
-for details.
-
----
-
 <div align="center">
 
 ### ⭐ Star this repo if you find it helpful!
 
-Made with ❤️ by [ass-sudo](https://github.com/ass-sudo)
+Made with by [ass-sudo](https://github.com/ass-sudo)
 
 </div>
