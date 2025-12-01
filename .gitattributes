@@ -1,6 +1,5 @@
-*.nix linguist-language=Nix
-*.css linguist-vendored
-*.js linguist-vendored
-*.html linguist-vendored
-dotfiles/** linguist-vendored
-home/** linguist-documentation
+*.nix linguist-detectable=true
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.json linguist-detectable=false
