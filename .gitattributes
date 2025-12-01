@@ -1,0 +1,6 @@
+*.nix linguist-language=Nix
+*.css linguist-vendored
+*.js linguist-vendored
+*.html linguist-vendored
+dotfiles/** linguist-vendored
+home/** linguist-documentation
