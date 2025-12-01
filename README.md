@@ -2,9 +2,11 @@
 
 # ✨ NixOS Dotfiles ✨
 
-> _A beautiful, modern NixOS configuration with Hyprland_
+![Main Screenshot](screenshot/5.png)
 
-[![NixOS](https://img.shields.io/badge/NixOS-24.05-blue.svg?style=flat-square&logo=nixos&logoColor=white)](https://nixos.org)
+> _A beautiful NixOS configuration with Hyprland_
+
+[![NixOS](https://img.shields.io/badge/NixOS-Unstable-blue.svg?style=flat-square&logo=nixos&logoColor=white)](https://nixos.org)
 [![Hyprland](https://img.shields.io/badge/Hyprland-dynamic-blue.svg?style=flat-square)](https://hyprland.org)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](LICENSE)
 
@@ -86,24 +88,17 @@
 
 ## ⌨️ Keybindings
 
-### 🚀 Essential Shortcuts
-
 <div align="center">
 
-|     Keybind      |     Action      |      Keybind      |   Action    |
-| :--------------: | :-------------: | :---------------: | :---------: |
-| `SUPER + RETURN` |  Open Terminal  |    `SUPER + Q`    | Kill Window |
-|   `SUPER + R`    |  App Launcher   |    `SUPER + F`    | Fullscreen  |
-|   `SUPER + E`    |  File Manager   |    `SUPER + W`    | Web Browser |
-|  `CTRL + SPACE`  | Switch Language | `ALT + SHIFT + S` | Screenshot  |
-
-### 🎮 Advanced Controls
-
-|          Keybind          |  Action  |          Keybind          |      Action      |
-| :-----------------------: | :------: | :-----------------------: | :--------------: |
-|    `SUPER + SHIFT + D`    | Telegram |    `SUPER + SHIFT + W`    |      Steam       |
-|    `SUPER + SHIFT + E`    |   GIMP   |   `CTRL + SHIFT + 1-0`    | Change Wallpaper |
-| `SUPER + SHIFT + ALT + S` |  Sleep   | `SUPER + SHIFT + ALT + Q` |    Power Off     |
+|          Keybind          |     Action      |          Keybind          |      Action      |
+| :-----------------------: | :-------------: | :-----------------------: | :--------------: |
+|     `SUPER + RETURN`      |  Open Terminal  |        `SUPER + Q`        |   Kill Window    |
+|        `SUPER + R`        |  App Launcher   |        `SUPER + F`        |    Fullscreen    |
+|        `SUPER + E`        |  File Manager   |        `SUPER + W`        |   Web Browser    |
+|      `CTRL + SPACE`       | Switch Language |     `ALT + SHIFT + S`     |    Screenshot    |
+|    `SUPER + SHIFT + D`    |    Telegram     |    `SUPER + SHIFT + W`    |      Steam       |
+|    `SUPER + SHIFT + E`    |      GIMP       |   `CTRL + SHIFT + 1-0`    | Change Wallpaper |
+| `SUPER + SHIFT + ALT + S` |      Sleep      | `SUPER + SHIFT + ALT + Q` |    Power Off     |
 
 </div>
 
@@ -113,29 +108,16 @@
 
 <div align="center">
 
-### 📁 File Operations
-
-| Alias |  Command   | Alias  |       Command       |
-| :---: | :--------: | :----: | :-----------------: |
-| `ll`  | `lsd -lah` |  `la`  |      `lsd -a`       |
-| `ls`  |   `lsd`    |  `..`  |       `cd ..`       |
-| `...` | `cd ../..` | `grep` | `grep --color=auto` |
-
-### 🔨 Development Tools
-
-| Alias |            Command             | Alias  |        Command         |
-| :---: | :----------------------------: | :----: | :--------------------: |
-| `nvf` | `nix run github:notashelf/nvf` | `snvf` |       `sudo nvf`       |
-| `gs`  |          `git status`          |  `ga`  |       `git add`        |
-| `gc`  |          `git commit`          |  `gp`  |       `git push`       |
-| `gcl` |          `git clone`           | `gpam` | `git push origin main` |
-
-### 🔄 System Management
-
-|   Alias   |                       Command                        |
-| :-------: | :--------------------------------------------------: |
-| `rebuild` | `sudo nixos-rebuild switch --flake /etc/nixos#nixos` |
-| `cleanup` |            `sudo nix-collect-garbage -d`             |
+|   Alias   |                       Command                        |   Alias   |            Command            |
+| :-------: | :--------------------------------------------------: | :-------: | :---------------------------: |
+|   `ll`    |                      `lsd -lah`                      |   `la`    |           `lsd -a`            |
+|   `ls`    |                        `lsd`                         |   `..`    |            `cd ..`            |
+|   `...`   |                      `cd ../..`                      |  `grep`   |      `grep --color=auto`      |
+|   `nvf`   |            `nix run github:notashelf/nvf`            |  `snvf`   |          `sudo nvf`           |
+|   `gs`    |                     `git status`                     |   `ga`    |           `git add`           |
+|   `gc`    |                     `git commit`                     |   `gp`    |          `git push`           |
+|   `gcl`   |                     `git clone`                      |  `gpam`   |    `git push origin main`     |
+| `rebuild` | `sudo nixos-rebuild switch --flake /etc/nixos#nixos` | `cleanup` | `sudo nix-collect-garbage -d` |
 
 </div>
 
@@ -151,7 +133,7 @@
 ### 🚀 Quick Start
 
 ```bash
-# 1️⃣ Install git
+# 1️⃣ Install git (RECOMMENDED)
 sudo nano /etc/nixos/configuration.nix
 # Add: environment.systemPackages = with pkgs; [ git ];
 sudo nixos-rebuild switch
@@ -160,7 +142,7 @@ sudo nixos-rebuild switch
 git clone https://github.com/ass-sudo/nix-dotfiles.git
 cd nix-dotfiles/nixos
 
-# 3️⃣ Backup and copy configuration
+# 3️⃣ Backup and copy files (RECOMMENDED)
 sudo rm -rf /etc/nixos/configuration.nix
 sudo cp -a configuration.nix dotfiles/ flake.lock flake.nix home/ modules/ /etc/nixos/
 
