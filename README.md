@@ -4,8 +4,9 @@
 
 > _A beautiful NixOS configuration with Hyprland_
 
-[![NixOS](https://img.shields.io/badge/NixOS-Unstable-blue.svg?style=flat-square&logo=nixos&logoColor=white)](https://nixos.org)
-[![Hyprland](https://img.shields.io/badge/Hyprland-dynamic-blue.svg?style=flat-square)](https://hyprland.org)
+![nixos](https://img.shields.io/badge/NixOS-24273A.svg?style=flat&logo=nixos&logoColor=CAD3F5)
+![nixpkgs](https://img.shields.io/badge/nixpkgs-unstable-informational.svg?style=flat&logo=nixos&logoColor=CAD3F5&colorA=24273A&colorB=8aadf4)
+![hyprland](https://img.shields.io/badge/hyprland-stable-informational.svg?style=flat&logo=wayland&logoColor=eed49f&colorA=24273A&colorB=91d7e3)
 
 [Screenshots](#-screenshots) • [Features](#-features) •
 [Installation](#-installation) • [Keybindings](#-keybindings)
