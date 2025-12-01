@@ -2,8 +2,6 @@
 
 # ✨ NixOS Dotfiles ✨
 
-![Main Screenshot](screenshot/logo.png)
-
 > _A beautiful NixOS configuration with Hyprland_
 
 [![NixOS](https://img.shields.io/badge/NixOS-Unstable-blue.svg?style=flat-square&logo=nixos&logoColor=white)](https://nixos.org)
