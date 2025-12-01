@@ -1,0 +1,65 @@
+{
+    "layer": "top",
+    "position": "top",
+    "output": ["*"],
+    "reload_style_on_change": true,
+    "modules-left": ["clock", "tray"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["cpu", "memory", "pulseaudio", "hyprland/language", "network"],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": "",
+            "empty": ""
+        },
+        "persistent-workspaces": {
+            "*": [ 1,2,3,4,5,6,7,8,9 ]
+        },
+        "all-outputs": true
+    },
+
+    "clock": {
+        "format": " {0:%d/%m}  {0:%H:%M:%S}",
+        "interval": 1,
+        "tooltip-format": "<tt>{calendar}</tt>"
+    },
+
+    "hyprland/language": {
+        "format": " {}",
+        "format-en": "en",   
+	"format-ru": "ru"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " Muted",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "format-icons": { "default": ["", "", ""] },
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi": " {signalStrength}%",
+        "format-ethernet":"",
+        "format-disconnected":"",
+        "tooltip-format-disconnected": "Error",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}",
+        "on-click": "kitty nmtui"
+    },
+
+    "cpu": {
+        "format": " 󰍛 {usage}%", 
+    },
+
+    "memory": {
+        "format": " {percentage}%", 
+    },
+
+    "tray": {
+        "icon-size": 15,
+        "spacing": 5
+    }
+}
