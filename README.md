@@ -8,7 +8,6 @@
 
 [![NixOS](https://img.shields.io/badge/NixOS-Unstable-blue.svg?style=flat-square&logo=nixos&logoColor=white)](https://nixos.org)
 [![Hyprland](https://img.shields.io/badge/Hyprland-dynamic-blue.svg?style=flat-square)](https://hyprland.org)
-[![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](LICENSE)
 
 [Screenshots](#-screenshots) • [Features](#-features) •
 [Installation](#-installation) • [Keybindings](#-keybindings)
