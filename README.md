@@ -132,7 +132,7 @@
 ### 🚀 Quick Start
 
 ```bash
-# 1️⃣ Install git (RECOMMENDED)
+# 1️⃣ Install git 
 sudo nano /etc/nixos/configuration.nix
 # Add: environment.systemPackages = with pkgs; [ git ];
 sudo nixos-rebuild switch
@@ -141,7 +141,7 @@ sudo nixos-rebuild switch
 git clone https://github.com/ass-sudo/nix-dotfiles.git
 cd nix-dotfiles/nixos
 
-# 3️⃣ Backup and copy files (RECOMMENDED)
+# 3️⃣ Backup and copy files
 sudo rm -rf /etc/nixos/configuration.nix
 sudo cp -a configuration.nix dotfiles/ flake.lock flake.nix home/ modules/ /etc/nixos/
 
