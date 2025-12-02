@@ -175,7 +175,7 @@ monitor = DP-1, 1920x1080@165, 0x0, 1
 
 ### ⭐ Star this repo if you find it helpful!
 <div align="center">
-**Made with by [ass-sudo](https://github.com/ass-sudo)**
+Made with by ass-sudo
 </div>
 
 ---
