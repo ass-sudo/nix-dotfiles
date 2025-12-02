@@ -4,8 +4,6 @@
 
  *A beautiful, modern NixOS configuration with Hyprland*
 
-![Main Setup](screenshot/5.png)
-
 [![NixOS](https://img.shields.io/badge/NixOS-Unstable-blue.svg?style=for-the-badge&logo=nixos&logoColor=white)](https://nixos.org)
 [![Hyprland](https://img.shields.io/badge/Hyprland-Wayland-00ADD8.svg?style=for-the-badge&logo=wayland&logoColor=white)](https://hyprland.org)
 [![License](https://img.shields.io/badge/License-GNU%20GPL-orange.svg?style=for-the-badge)](LICENSE)
@@ -173,8 +171,8 @@ monitor = DP-1, 1920x1080@165, 0x0, 1
 
 ---
 
-### ⭐ Star this repo if you find it helpful!
 <div align="center">
+### ⭐ Star this repo if you find it helpful!
 Made with by ass-sudo
 </div>
 
