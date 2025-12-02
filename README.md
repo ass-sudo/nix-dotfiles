@@ -89,7 +89,7 @@
 
 ---
 
-## ⌨️ Keybindings
+## ⌨️ Bind
 
 <div align="center">
 
@@ -133,8 +133,6 @@
 - Username: `nixos` **(recommended)**
 - Basic understanding of Nix flakes
 
-### 🚀 Quick Start
-
 ```bash
 # 1️⃣ Install git
 sudo nano /etc/nixos/configuration.nix
@@ -149,7 +147,7 @@ cd nix-dotfiles/nixos
 sudo rm -rf /etc/nixos/configuration.nix
 sudo cp -a configuration.nix dotfiles/ flake.lock flake.nix home/ modules/ /etc/nixos/
 
-# 4️⃣ Apply the configuration
+# 4️⃣ Rebuild
 sudo nixos-rebuild switch --flake /etc/nixos#nixos
 
 # 5️⃣ Reboot your system
@@ -158,12 +156,9 @@ reboot
 
 ---
 
-## ⚙️ Configuration
+### ⚠️ Important Notes
 
-### 🖥️ Display Settings
-
-Configure your monitor in Hyprland:
-
+-Configure your monitor in Hyprland:
 ```bash
 nano ~/.config/hypr/hyprland.conf
 ```
@@ -174,31 +169,9 @@ monitor = DP-1, 1920x1080@165, 0x0, 1
 # For multiple monitors:
 # monitor = HDMI-A-1, 1920x1080@60, 1920x0, 1
 ```
-
-### ⚠️ Important Notes
-
 - ✅ Use username **`nixos`** for best compatibility
 - ⚠️ **Do not change** the layout switch from `ALT + SHIFT` (breaks keybindings)
 - 🖥️ For multiple monitors, add additional `monitor` lines
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to:
-- 🐛 [Report bugs](https://github.com/ass-sudo/nix-dotfiles/issues)
-- 💡 [Request features](https://github.com/ass-sudo/nix-dotfiles/issues)
-- 🔧 [Submit pull requests](https://github.com/ass-sudo/nix-dotfiles/pulls)
-
----
-
-## 🙏 Acknowledgments
-
-- [NixOS](https://nixos.org/) - For the amazing declarative package manager
-- [Hyprland](https://hyprland.org/) - For the beautiful Wayland compositor
-- [r/unixporn](https://reddit.com/r/unixporn) - For inspiration and community
 
 ---
 
