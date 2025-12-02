@@ -158,7 +158,7 @@ reboot
 
 ### ⚠️ Important Notes
 
--Configure your monitor in Hyprland:
+- Configure your monitor in Hyprland:
 ```bash
 nano ~/.config/hypr/hyprland.conf
 ```
