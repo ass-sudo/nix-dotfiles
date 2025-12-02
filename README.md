@@ -34,7 +34,7 @@
 
 <div align="center">
 
-### 🖥️ Core Components
+### 🖥️ Packages
 
 </div>
 
