@@ -162,8 +162,6 @@ reboot
 ```bash
 nano ~/.config/hypr/hyprland.conf
 ```
-
-Example configuration:
 ```conf
 monitor = DP-1, 1920x1080@165, 0x0, 1
 # For multiple monitors:
