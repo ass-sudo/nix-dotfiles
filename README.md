@@ -89,7 +89,7 @@
 
 ---
 
-## ⌨️ Bind
+## ⌨️ Keybind
 
 <div align="center">
 
