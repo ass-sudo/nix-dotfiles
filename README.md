@@ -2,7 +2,7 @@
 
 # ✨ NixOS Dotfiles ✨
 
-> _A beautiful NixOS configuration with Hyprland_
+ _A beautiful NixOS configuration with Hyprland_
 
 ![nixos](https://img.shields.io/badge/NixOS-24273A.svg?style=flat&logo=nixos&logoColor=CAD3F5)
 ![nixpkgs](https://img.shields.io/badge/nixpkgs-unstable-informational.svg?style=flat&logo=nixos&logoColor=CAD3F5&colorA=24273A&colorB=8aadf4)
