@@ -158,7 +158,7 @@ reboot
 
 - Configure your monitor in Hyprland:
 ```bash
-nano ~/.config/hypr/hyprland.conf
+nvf /etc/nixos/dotfiles/hypr/hyprland.conf
 ```
 ```conf
 monitor = DP-1, 1920x1080@165, 0x0, 1
