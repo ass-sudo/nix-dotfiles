@@ -13,7 +13,7 @@
 [![Stars](https://img.shields.io/github/stars/ass-sudo/nix-dotfiles?style=social)](https://github.com/ass-sudo/nix-dotfiles/stargazers)
 [![Forks](https://img.shields.io/github/forks/ass-sudo/nix-dotfiles?style=social)](https://github.com/ass-sudo/nix-dotfiles/network/members)
 
-[Screenshots](#-screenshots) • [Features](#-features) • [Installation](#-installation) • [Keybindings](#-keybindings) • [Aliases](#-shell-aliases)
+[Screenshots](#-screenshots) • [Features](#-features) • [Installation](#-installation) • [Aliases](#-shell-aliases)
 
 ---
 
@@ -136,7 +136,7 @@
 ### 🚀 Quick Start
 
 ```bash
-# 1️⃣ Install git (REQUIRED)
+# 1️⃣ Install git
 sudo nano /etc/nixos/configuration.nix
 # Add to systemPackages: git
 sudo nixos-rebuild switch
@@ -145,7 +145,7 @@ sudo nixos-rebuild switch
 git clone https://github.com/ass-sudo/nix-dotfiles.git
 cd nix-dotfiles/nixos
 
-# 3️⃣ Backup and copy configuration files (RECOMMENDED)
+# 3️⃣ Copy configuration files
 sudo rm -rf /etc/nixos/configuration.nix
 sudo cp -a configuration.nix dotfiles/ flake.lock flake.nix home/ modules/ /etc/nixos/
 
@@ -179,16 +179,7 @@ monitor = DP-1, 1920x1080@165, 0x0, 1
 
 - ✅ Use username **`nixos`** for best compatibility
 - ⚠️ **Do not change** the layout switch from `ALT + SHIFT` (breaks keybindings)
-- 📊 Adjust monitor settings according to your hardware
 - 🖥️ For multiple monitors, add additional `monitor` lines
-- 🎨 Pywal themes are generated automatically from your wallpaper
-
-### 🎨 Customization
-
-- **Wallpapers**: Place images in `~/.config/wallpapers/`
-- **Themes**: Use `pywal` or edit `~/.cache/wal/colors-*` files
-- **Keybindings**: Modify `~/.config/hypr/hyprland.conf`
-- **Shell config**: Edit `/etc/nixos/dotfiles/fish/config.fish`
 
 ---
 
@@ -211,13 +202,10 @@ Feel free to:
 
 ---
 
-<div align="center">
-
 ### ⭐ Star this repo if you find it helpful!
-
+<div align="center">
 **Made with by [ass-sudo](https://github.com/ass-sudo)**
-
-[![GitHub](https://img.shields.io/badge/GitHub-ass--sudo-181717?style=for-the-badge&logo=github)](https://github.com/ass-sudo)
+</div>
 
 ---
 
@@ -226,14 +214,5 @@ Feel free to:
 This project is licensed under the **GNU General Public License v3.0**.
 
 See the [LICENSE](LICENSE) file for details.
-
-```
-Copyright (C) 2025 ass-sudo
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-```
 
 </div>
